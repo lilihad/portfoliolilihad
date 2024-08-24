@@ -1,0 +1,54 @@
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.input-form {
+    width: 3rem;
+    padding: 0.5rem;
+    border: 1px solid var(--blue-light);
+    border-radius: 0.25rem;
+    text-align: center;
+}
+
+.result-box-default {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--blue-light);
+    text-decoration-color: aliceblue;
+    border-radius: 0.5rem;
+}
+
+.btn-restart {
+    width: 400px;
+    height: 46px;
+    background-color: var(--pink-700);
+    border: none;
+    color: rgb(255, 255, 255);
+    transition: 0.5 all;
+
+}
+
+.btn-restart:hover {
+    color: rgb(236, 162, 201)
+}
+
+.result-box-default{
+    color: rgb(255, 255, 255);
+}
+
+.status{
+    color: rgb(181, 83, 83);
+}
+

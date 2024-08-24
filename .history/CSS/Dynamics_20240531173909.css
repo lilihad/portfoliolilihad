@@ -1,0 +1,10 @@
+.result-box.result-box-default{
+    background: var(--white);
+color: var(--blue);
+}
+.result-correct-answear: {
+    color: var(--white);
+    background: var(--green);
+
+}
+
